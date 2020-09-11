@@ -62,9 +62,9 @@ int main()
     attroff(A_BOLD);
 
     //Izquierda
-    attron(A_REVERSE); 
+    attron(A_STANDOUT); 
     mvwprintw(izquierda, 1, 1,  "Software") ;
-    attroff(A_REVERSE); 
+    attroff(A_STANDOUT); 
     mvwprintw(izquierda, 2, 1, "HardWare");
     mvwprintw(izquierda, 3, 1, "System");
     mvwprintw(izquierda, 4, 1, "Network Devices");
